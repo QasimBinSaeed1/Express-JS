@@ -24,9 +24,4 @@ Briefly introduce the purpose of this repository and your motivation for learnin
 
 ## Getting Started
 
-Provide instructions on how to set up the development environment, install Node.js and Express.js, and clone the repository.
-
-```bash
-git clone https://github.com/your-username/express-learning-repo.git
-cd express-learning-repo
-npm install
+Provide instructions on how to set up the development environment, install Node.js and Express.js.
