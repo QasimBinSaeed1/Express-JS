@@ -1,4 +1,6 @@
 import fs from "fs/promises";
+//We can use await and dont need to write asyn main() function because of the module/ECMAScript.
+//await doesn't make code synchronous, it pauses an async function until a Promise settles
 let a = fs.writeFile("qasim.txt", "My name is Qasim Bin Saeed").then(() => {
         console.log("1st File is Created");
     }).catch((error) => {
