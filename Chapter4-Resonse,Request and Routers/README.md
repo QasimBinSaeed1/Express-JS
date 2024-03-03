@@ -18,6 +18,7 @@ app.post('/submit-form', (req, res) => {
   // Send a response
   res.send('Form submitted successfully!');
 });
+```
 
 # Chaining of Requests
 
@@ -42,6 +43,7 @@ app.use((req, res, next) => {
   console.log('Middleware 2');
   next();
 });
+```
 
 # Serving HTML Files
 
@@ -63,6 +65,7 @@ app.use(express.static('public'));
 app.get('/home', (req, res) => {
   res.sendFile(__dirname + '/public/home.html');
 });
+```
 
 # Postman
 
