@@ -20,6 +20,19 @@ This document serves as an introduction to Express.js, a popular web framework f
 
 - **Improved Developer Experience:** Saves time and enhances productivity by eliminating the need to constantly restart the server.
 
+- **Potential Error: nodemon cannot be loaded because running scripts is disabled on this system.**
+
+If you encounter an error stating that nodemon cannot be loaded due to script execution being disabled on your system, you need to address the PowerShell execution policy.
+
+- **Solution:**
+
+1. Run PowerShell as Administrator.
+
+2. Execute the following command to set the execution policy to RemoteSigned for the current user:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 ## Installing Express@4
 
 1. Create a new Node.js project directory.
