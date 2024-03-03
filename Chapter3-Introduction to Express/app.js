@@ -10,7 +10,7 @@ app.get('/', (req,res) =>{
 app.get('/:slug',(req,res)=>{
     console.log(req.params) //{ slug: 'Qasim' }
     console.log(req.query) //{ server: 'India', mode: 'dark' }
-    res.send(`You are on the ${req.params.slug} page with ${req.query} queries.`)
+    res.send(`You are on the ${req.params.slug} page.`)
 })
 
 app.listen(3000,()=>{
