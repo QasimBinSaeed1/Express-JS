@@ -32,6 +32,7 @@ If you encounter an error stating that nodemon cannot be loaded due to script ex
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 ## Installing Express@4
 
