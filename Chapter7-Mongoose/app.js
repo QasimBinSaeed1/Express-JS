@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 const con = mongoose.connect('mongodb://localhost:27017/Todo')
 const app = express();
 
-//Imort todo from Models
+//Import todo from Models
 import toDo from "./models/todo.js";
 
 app.get('/', (req, res) => {
